@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B7E4F3F1EA89187004672F4 /* PMTConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E4F3E1EA89187004672F4 /* PMTConfirmViewController.swift */; };
+		0B7E4F411EA895F0004672F4 /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E4F401EA895F0004672F4 /* AdminLoginViewController.swift */; };
 		656FF2151E91A26200398691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF2141E91A26200398691 /* AppDelegate.swift */; };
-		656FF2171E91A26200398691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF2161E91A26200398691 /* ViewController.swift */; };
 		656FF21A1E91A26200398691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656FF2181E91A26200398691 /* Main.storyboard */; };
 		656FF21D1E91A26200398691 /* BCO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 656FF21B1E91A26200398691 /* BCO.xcdatamodeld */; };
 		656FF21F1E91A26200398691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656FF21E1E91A26200398691 /* Assets.xcassets */; };
 		656FF2221E91A26200398691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656FF2201E91A26200398691 /* LaunchScreen.storyboard */; };
 		656FF22D1E91A26200398691 /* BCOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF22C1E91A26200398691 /* BCOTests.swift */; };
 		656FF2381E91A26200398691 /* BCOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF2371E91A26200398691 /* BCOUITests.swift */; };
+		656FF2461E91A6C500398691 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF2451E91A6C500398691 /* Bolts.framework */; };
+		656FF2481E91A6D100398691 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF2471E91A6D100398691 /* Parse.framework */; };
+		656FF24B1E91A72400398691 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF24A1E91A72400398691 /* AudioToolbox.framework */; };
+		656FF24D1E91A72A00398691 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF24C1E91A72A00398691 /* CFNetwork.framework */; };
+		656FF24F1E91A73400398691 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF24E1E91A73400398691 /* CoreGraphics.framework */; };
+		656FF2511E91A73C00398691 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF2501E91A73C00398691 /* CoreLocation.framework */; };
+		656FF2531E91A74C00398691 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF2521E91A74C00398691 /* QuartzCore.framework */; };
+		656FF2551E91A75400398691 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF2541E91A75400398691 /* Security.framework */; };
+		656FF2571E91A75B00398691 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF2561E91A75B00398691 /* StoreKit.framework */; };
+		656FF2591E91A76200398691 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF2581E91A76200398691 /* SystemConfiguration.framework */; };
+		656FF25B1E91A76A00398691 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF25A1E91A76A00398691 /* libz.tbd */; };
+		656FF25D1E91A77400398691 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FF25C1E91A77400398691 /* libsqlite3.tbd */; };
+		656FF2611E91AAC500398691 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF2601E91AAC500398691 /* RegisterViewController.swift */; };
+		656FF2631E91AEC300398691 /* LoginsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF2621E91AEC300398691 /* LoginsViewController.swift */; };
+		656FF2651E91C1F500398691 /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF2641E91C1F500398691 /* StationsViewController.swift */; };
+		656FF2671E91DF3200398691 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF2661E91DF3200398691 /* MenuViewController.swift */; };
+		656FF2691E91E89900398691 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF2681E91E89900398691 /* CartViewController.swift */; };
+		656FF26B1E91E92700398691 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF26A1E91E92700398691 /* PaymentViewController.swift */; };
+		656FF26D1E91F44D00398691 /* Shopping Cart-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 656FF26C1E91F44D00398691 /* Shopping Cart-30.png */; };
+		656FF26F1E91F45400398691 /* Dining Room-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 656FF26E1E91F45400398691 /* Dining Room-30.png */; };
+		BEF672871E9E9B1F0093C2F1 /* CartItmes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF672861E9E9B1F0093C2F1 /* CartItmes.swift */; };
+		BEF672891E9EA2860093C2F1 /* CartItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF672881E9EA2860093C2F1 /* CartItemsViewController.swift */; };
+		C24E1FA21EA596050050B692 /* Purchase Order-30.png in Resources */ = {isa = PBXBuildFile; fileRef = C24E1FA11EA596050050B692 /* Purchase Order-30.png */; };
+		C24E1FA41EA5A1AD0050B692 /* AdminStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24E1FA31EA5A1AD0050B692 /* AdminStationsViewController.swift */; };
+		C24E1FA61EA5A1C90050B692 /* AdminMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24E1FA51EA5A1C90050B692 /* AdminMenuViewController.swift */; };
+		C24E1FA81EA5A1E60050B692 /* AdminOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24E1FA71EA5A1E60050B692 /* AdminOrdersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +62,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7E4F3E1EA89187004672F4 /* PMTConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PMTConfirmViewController.swift; path = ../PMTConfirmViewController.swift; sourceTree = "<group>"; };
+		0B7E4F401EA895F0004672F4 /* AdminLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
 		656FF2111E91A26200398691 /* BCO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FF2141E91A26200398691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		656FF2161E91A26200398691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		656FF2191E91A26200398691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		656FF21C1E91A26200398691 /* BCO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BCO.xcdatamodel; sourceTree = "<group>"; };
 		656FF21E1E91A26200398691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +77,32 @@
 		656FF2331E91A26200398691 /* BCOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FF2371E91A26200398691 /* BCOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCOUITests.swift; sourceTree = "<group>"; };
 		656FF2391E91A26200398691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656FF2451E91A6C500398691 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		656FF2471E91A6D100398691 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		656FF24A1E91A72400398691 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		656FF24C1E91A72A00398691 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		656FF24E1E91A73400398691 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		656FF2501E91A73C00398691 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		656FF2521E91A74C00398691 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		656FF2541E91A75400398691 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		656FF2561E91A75B00398691 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		656FF2581E91A76200398691 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		656FF25A1E91A76A00398691 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		656FF25C1E91A77400398691 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		656FF2601E91AAC500398691 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../RegisterViewController.swift; sourceTree = "<group>"; };
+		656FF2621E91AEC300398691 /* LoginsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginsViewController.swift; sourceTree = "<group>"; };
+		656FF2641E91C1F500398691 /* StationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
+		656FF2661E91DF3200398691 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		656FF2681E91E89900398691 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		656FF26A1E91E92700398691 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		656FF26C1E91F44D00398691 /* Shopping Cart-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shopping Cart-30.png"; sourceTree = "<group>"; };
+		656FF26E1E91F45400398691 /* Dining Room-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dining Room-30.png"; sourceTree = "<group>"; };
+		BEF672861E9E9B1F0093C2F1 /* CartItmes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItmes.swift; sourceTree = "<group>"; };
+		BEF672881E9EA2860093C2F1 /* CartItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItemsViewController.swift; sourceTree = "<group>"; };
+		C24E1FA11EA596050050B692 /* Purchase Order-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Purchase Order-30.png"; sourceTree = "<group>"; };
+		C24E1FA31EA5A1AD0050B692 /* AdminStationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminStationsViewController.swift; sourceTree = "<group>"; };
+		C24E1FA51EA5A1C90050B692 /* AdminMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminMenuViewController.swift; sourceTree = "<group>"; };
+		C24E1FA71EA5A1E60050B692 /* AdminOrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminOrdersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656FF25D1E91A77400398691 /* libsqlite3.tbd in Frameworks */,
+				656FF25B1E91A76A00398691 /* libz.tbd in Frameworks */,
+				656FF2591E91A76200398691 /* SystemConfiguration.framework in Frameworks */,
+				656FF2571E91A75B00398691 /* StoreKit.framework in Frameworks */,
+				656FF2551E91A75400398691 /* Security.framework in Frameworks */,
+				656FF2531E91A74C00398691 /* QuartzCore.framework in Frameworks */,
+				656FF2511E91A73C00398691 /* CoreLocation.framework in Frameworks */,
+				656FF24F1E91A73400398691 /* CoreGraphics.framework in Frameworks */,
+				656FF24D1E91A72A00398691 /* CFNetwork.framework in Frameworks */,
+				656FF24B1E91A72400398691 /* AudioToolbox.framework in Frameworks */,
+				656FF2481E91A6D100398691 /* Parse.framework in Frameworks */,
+				656FF2461E91A6C500398691 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +149,7 @@
 				656FF22B1E91A26200398691 /* BCOTests */,
 				656FF2361E91A26200398691 /* BCOUITests */,
 				656FF2121E91A26200398691 /* Products */,
+				656FF2491E91A72300398691 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +167,25 @@
 			isa = PBXGroup;
 			children = (
 				656FF2141E91A26200398691 /* AppDelegate.swift */,
-				656FF2161E91A26200398691 /* ViewController.swift */,
 				656FF2181E91A26200398691 /* Main.storyboard */,
+				0B7E4F401EA895F0004672F4 /* AdminLoginViewController.swift */,
+				C24E1FA31EA5A1AD0050B692 /* AdminStationsViewController.swift */,
+				C24E1FA51EA5A1C90050B692 /* AdminMenuViewController.swift */,
+				C24E1FA71EA5A1E60050B692 /* AdminOrdersViewController.swift */,
+				BEF672881E9EA2860093C2F1 /* CartItemsViewController.swift */,
+				0B7E4F3E1EA89187004672F4 /* PMTConfirmViewController.swift */,
+				656FF26E1E91F45400398691 /* Dining Room-30.png */,
+				C24E1FA11EA596050050B692 /* Purchase Order-30.png */,
+				656FF26C1E91F44D00398691 /* Shopping Cart-30.png */,
+				656FF26A1E91E92700398691 /* PaymentViewController.swift */,
+				656FF2661E91DF3200398691 /* MenuViewController.swift */,
+				656FF2681E91E89900398691 /* CartViewController.swift */,
+				BEF672861E9E9B1F0093C2F1 /* CartItmes.swift */,
+				656FF2641E91C1F500398691 /* StationsViewController.swift */,
+				656FF2601E91AAC500398691 /* RegisterViewController.swift */,
+				656FF2621E91AEC300398691 /* LoginsViewController.swift */,
+				656FF2471E91A6D100398691 /* Parse.framework */,
+				656FF2451E91A6C500398691 /* Bolts.framework */,
 				656FF21E1E91A26200398691 /* Assets.xcassets */,
 				656FF2201E91A26200398691 /* LaunchScreen.storyboard */,
 				656FF2231E91A26200398691 /* Info.plist */,
@@ -126,6 +210,23 @@
 				656FF2391E91A26200398691 /* Info.plist */,
 			);
 			path = BCOUITests;
+			sourceTree = "<group>";
+		};
+		656FF2491E91A72300398691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				656FF25C1E91A77400398691 /* libsqlite3.tbd */,
+				656FF25A1E91A76A00398691 /* libz.tbd */,
+				656FF2581E91A76200398691 /* SystemConfiguration.framework */,
+				656FF2561E91A75B00398691 /* StoreKit.framework */,
+				656FF2541E91A75400398691 /* Security.framework */,
+				656FF2521E91A74C00398691 /* QuartzCore.framework */,
+				656FF2501E91A73C00398691 /* CoreLocation.framework */,
+				656FF24E1E91A73400398691 /* CoreGraphics.framework */,
+				656FF24C1E91A72A00398691 /* CFNetwork.framework */,
+				656FF24A1E91A72400398691 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +336,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656FF26F1E91F45400398691 /* Dining Room-30.png in Resources */,
 				656FF2221E91A26200398691 /* LaunchScreen.storyboard in Resources */,
+				656FF26D1E91F44D00398691 /* Shopping Cart-30.png in Resources */,
 				656FF21F1E91A26200398691 /* Assets.xcassets in Resources */,
 				656FF21A1E91A26200398691 /* Main.storyboard in Resources */,
+				C24E1FA21EA596050050B692 /* Purchase Order-30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +366,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656FF2631E91AEC300398691 /* LoginsViewController.swift in Sources */,
+				0B7E4F3F1EA89187004672F4 /* PMTConfirmViewController.swift in Sources */,
+				BEF672871E9E9B1F0093C2F1 /* CartItmes.swift in Sources */,
+				C24E1FA41EA5A1AD0050B692 /* AdminStationsViewController.swift in Sources */,
+				656FF2671E91DF3200398691 /* MenuViewController.swift in Sources */,
+				BEF672891E9EA2860093C2F1 /* CartItemsViewController.swift in Sources */,
+				C24E1FA61EA5A1C90050B692 /* AdminMenuViewController.swift in Sources */,
+				656FF2691E91E89900398691 /* CartViewController.swift in Sources */,
+				656FF26B1E91E92700398691 /* PaymentViewController.swift in Sources */,
 				656FF21D1E91A26200398691 /* BCO.xcdatamodeld in Sources */,
-				656FF2171E91A26200398691 /* ViewController.swift in Sources */,
 				656FF2151E91A26200398691 /* AppDelegate.swift in Sources */,
+				C24E1FA81EA5A1E60050B692 /* AdminOrdersViewController.swift in Sources */,
+				0B7E4F411EA895F0004672F4 /* AdminLoginViewController.swift in Sources */,
+				656FF2651E91C1F500398691 /* StationsViewController.swift in Sources */,
+				656FF2611E91AAC500398691 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +532,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BCO",
+				);
 				INFOPLIST_FILE = BCO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = S528148.BCO;
@@ -428,6 +548,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BCO",
+				);
 				INFOPLIST_FILE = BCO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = S528148.BCO;
@@ -509,6 +633,7 @@
 				656FF23E1E91A26200398691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		656FF23F1E91A26200398691 /* Build configuration list for PBXNativeTarget "BCOTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +642,7 @@
 				656FF2411E91A26200398691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		656FF2421E91A26200398691 /* Build configuration list for PBXNativeTarget "BCOUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +651,7 @@
 				656FF2441E91A26200398691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
